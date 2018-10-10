@@ -1,0 +1,134 @@
+body {
+  background-color: #efefef;
+  color: #828282;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#profile-pic {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.sport-pic {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px #cecccc;
+  padding-right: 0px;
+  height: 200px;
+}
+
+.card {
+  background-color: #f4f4f4;
+  width: 90%;
+  margin: 10px auto;
+  box-shadow: 2px 2px 1px #cecccc;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+h2 {
+  color: #f48342;
+}
+
+h1 {
+  color: #565656;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #828282;
+}
+
+li:hover * {
+  color: #89a6e5;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+.pic-column {
+  width: 25%;
+}
+
+#about {
+  width: 92%;
+  margin: 10px auto;
+}
+
+.table {
+  text-align: left;
+}
+
+#intro {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.long {
+  height: 400px;
+}
+
+.icon {
+  font-size: 28px;
+
+}
+
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+#page-content {
+  margin-left: 200px;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sidebar i{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+}
+
+#sidebar i:hover {
+  color: #fcbb4b;
+}
+
